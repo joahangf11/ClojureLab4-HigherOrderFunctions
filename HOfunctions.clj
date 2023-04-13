@@ -79,6 +79,7 @@
 ;7
 
 (defn binary-search [vct x lt-fun]
+  "Returns the index where x is found in vct (the first element of the vector is at index 0), or nil if not found."
   ;Variable n guarda el número de elementos en el vector
   (let [n (count vct)]
     ;Se crea un bucle que recorrera tanto como sea necesario
